@@ -1,0 +1,135 @@
+/* Some common features */
+.content {
+  font-family: Montserrat, sans-serif;
+  background: var(--backgroud_color);
+  width: 1200px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-size: 18px;
+  text-align: justify;
+  line-height: 1.4;
+}
+
+.vertical_separator {
+  color: var(--accent-color);
+  font-weight: bold;
+}
+.accent {
+  color: var(--accent-color);
+  font-weight: bold;
+}
+
+h2,
+h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+h3 {
+  margin-bottom: 30px;
+}
+
+h4 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  padding-left: 45px;
+  line-height: 1.5;
+}
+
+.conteiner {
+  margin: 0 auto;
+  width: 1000px;
+}
+.content_conteiner {
+  margin: 40px 0px;
+  text-align: justify;
+}
+
+/* Title */
+.main_tittle {
+  text-align: center;
+  font-weight: 700;
+  font-size: 40px;
+  padding-top: 30px;
+}
+
+.main_photo_box {
+  width: 350px;
+  height: 350px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.main_photo {
+  object-fit: cover;
+  width: 360px;
+  height: 360px;
+}
+
+h1 + div {
+  margin: 30px auto 80px;
+}
+div > p {
+  margin: 15px 15px;
+  padding-left: 30px;
+}
+
+/* About me */
+.about_me_box {
+  margin-bottom: 80px;
+}
+
+/* Contacts */
+.contacts_icon {
+  width: 25px;
+  height: 25px;
+}
+
+/* Table */
+/* .table_title{
+  text-align: center;
+} */
+
+table {
+  margin: 0 auto;
+  border: 2px solid;
+}
+
+.col_background_color {
+  background: var(--col_background_color);
+}
+
+.tr_header {
+  background: var(--tr_header_color);
+}
+tr {
+  height: 50px;
+}
+th {
+  width: 100px;
+  text-align: center;
+  vertical-align: middle;
+  font-weight: bold;
+}
+
+.numbers {
+  width: 50px;
+}
+
+td {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.table_link {
+  text-align: center;
+  padding: 0;
+}
