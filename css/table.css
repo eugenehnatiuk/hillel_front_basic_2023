@@ -1,6 +1,6 @@
 .content {
   font-family: Montserrat, sans-serif;
-  background: var(--backgroud_color);
+  background: #fff8f8;
   width: 1200px;
   margin: 0 auto;
   padding-top: 80px;
@@ -12,10 +12,11 @@ a {
   display: block;
   margin: 20px 0px;
 }
+
 caption {
-	margin: 30px;
-	font-weight: bold;
-	color: #fb6d3a;
+  margin: 30px;
+  font-weight: bold;
+  color: #fb6d3a;
 }
 
 table {
@@ -54,8 +55,8 @@ th {
   background: #154312;
 }
 
-.go_home_link{
-	margin: 30px auto;
-	text-transform: uppercase;
-	text-align: center
+.go_home_link {
+  margin: 30px auto;
+  text-transform: uppercase;
+  text-align: center;
 }
