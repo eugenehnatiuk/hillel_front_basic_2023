@@ -10,86 +10,28 @@
 	<link
 		href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@900&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700&display=swap"
 		rel="stylesheet">
-	<link rel="stylesheet" href="css/style.css">
-	<style>
-		body {
-			margin: 0;
-			padding: 0;
-		}
-
-		h1 {
-			font-style: normal;
-			font-weight: 700;
-			font-size: 45px;
-			padding: 20px;
-			margin: auto;
-		}
-
-		h2,
-		h3 {
-			font-style: normal;
-			font-weight: 700;
-			font-size: 30px
-		}
-
-		h3 {
-			margin-bottom: 30px;
-		}
-
-		h4 {
-			font-style: normal;
-			font-weight: bold;
-			font-size: 24px;
-		}
-
-		p {
-			font-size: 22px;
-		}
-
-		a {
-			text-decoration: none;
-		}
-
-		.vertical_separator {
-			color: #FB6D3A;
-			font-weight: bold;
-		}
-
-		table {
-			margin: 0 auto;
-			border: 2px solid black;
-			width: 649px;
-			height: 542px;
-			box-sizing: border-box;
-		}
-
-		td,
-		th {
-			border: 1px solid black;
-			text-align: center;
-		}
-	</style>
+	<link rel="stylesheet" href="css/index.css">
+	
 </head>
 
-<body style="font-family: Montserrat;">
+<body>
 	<!-- Main -->
-	<div style="background:#FFF8F8; width: 1200px; margin: 0 auto;">
-		<div style="text-align:center; margin-bottom: 40px;">
-			<h1>Hnatiuk Eugene</h1>
-		</div>
-		<div style="margin: 0 auto; width: 350px; height: 350px; overflow: hidden; border-radius: 50%">
-			<img style="object-fit: cover;" src="img/Ava_2.jpg" alt="Photo" width="360" height="360">
+	<section class="content">
+		<!-- Title -->
+		<h1 class="main_tittle">Hnatiuk Eugene</h1>
+		<div class="main_photo_box">
+			<img class="main_photo" src="img/Ava_2.jpg" alt="Photo">
 		</div>
 
-		<div style="margin: 0 auto; width: 1000px;">
+		<div class="conteiner">
 			<!-- About me -->
-			<div style="margin: 80px 0px 0px 0px;">
-				<h2 style="margin: 0px;">Future Front-end Developer</h2>
-				<p style="padding-left: 30px; margin: 15px 0px 15px 0px;">Front-end Basic student at
+			<div class="about_me_box">
+				<h2>Future Front-end Developer</h2>
+				<p>Front-end Basic student at
 					<a style="color: #FB6D3A; font-weight: bold;"
 						href="https://kyiv.ithillel.ua/ru/courses/front-end-basic">Hillel</a>
 				</p>
-				<p style="padding-left: 30px; margin: 0px; text-align: justify;">
+				<p>
 					Ground level future Front-End Developer looking for a chanse to change his career path in order to gain
 					work-life ballance and
 					overcome the challenges of the modern world. Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -100,92 +42,93 @@
 			</div>
 
 			<!-- Contacts -->
-			<div style="margin: 80px 0px 40px 0px;">
+			<div class="content_conteiner">
 				<h3>Contacts</h3>
-				<p style="margin: 15px 0px; padding-left: 30px;"><img src="img/mail.svg" alt="e-mail" width="25"
-						height="25">
+				<p class="contacts_box"><img class="contacts_icon" src="img/mail.svg" alt="e-mail">
 					<a href="mailto:gnatyuk.e@gmail.com">gnatyuk.e@gmail.com</a>
 				</p>
-				<p style="margin: 15px 0px; padding-left: 30px;"><img src="img/phone.svg" alt="phone" width="25"
-						height="25">
+				<p class="contacts_box"><img class="contacts_icon" src="img/phone.svg" alt="phone">
 					<a href="tel:+380952811337">+38(095)281-13-37</a>
 				</p>
-				<p style="margin: 15px 0px; padding-left: 30px;"><img src="img/facebook.svg" alt="Facebook" width="25"
-						height="25">
+				<p class="contacts_box"><img class="contacts_icon" src="img/facebook.svg" alt="Facebook">
 					<a href="https://www.facebook.com/eugene.hnatyuk/">Facebook</a>
 				</p>
-				<p style="margin: 15px 0px; padding-left: 30px;"><img src="img/github.svg" alt="GitHub" width="25" height="25">
+				<p class="contacts_box"><img class="contacts_icon" src="img/github.svg" alt="GitHub">
 					<a href="https://github.com/eugenehnatiuk">GitHub</a>
 				</p>
 			</div>
 			<!-- Work Experience -->
-			<div style="margin: 40px 0px">
+			<div class="content_conteiner">
 				<h3>Work Experience</h3>
-				<div style="margin-bottom: 20px; padding-left: 30px;">
-					<h4 style="margin: 10px 0px">Director of Operations <span style="color: #FB6D3A;">Roots LLS</span></h4>
-					<p style="margin: 10px 0px">Lorem, ipsum dolor.</p>
+				<div>
+					<h4>Director of Operations <span class="accent">Roots LLS</span></h4>
+					<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum, facere quasi laboriosam dolore
+						deserunt, rerum consectetur est totam repudiandae hic quos fugiat harum fuga eius libero perspiciatis
+						unde qui voluptatum!</p>
 				</div>
-				<div style="margin-bottom: 20px; padding-left: 30px">
-					<h4 style="margin: 10px 0px">Quality assurance manager <span style="color: #FB6D3A;">Wine Bureau
+				<div>
+					<h4>Quality assurance manager <span class="accent">Wine Bureau
 							LLC</span>
 					</h4>
-					<p style="margin: 10px 0px">Lorem, ipsum dolor.</p>
+					<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum, facere quasi laboriosam dolore
+						deserunt, rerum consectetur est totam repudiandae hic quos fugiat harum fuga eius libero perspiciatis
+						unde qui voluptatum!</p>
 				</div>
-				<div style="margin-bottom: 20px; padding-left: 30px; text-align: justify;">
-					<h4 style="margin: 10px 0px;">Senior soldier of Armed Forces of Ukraine <span
-							style="color: #FB6D3A; font-weight: bold;">The 101st
+				<div>
+					<h4>Senior soldier of Armed Forces of Ukraine <span class="accent">The 101st
 							separate brigade of security of the General Staff | Department of Euro-Atlantic Integration of the
 							General Staff of the Armed Forces of Ukraine</span></h4>
-					<p style="margin: 10px 0">Lorem, ipsum dolor.</p>
+					<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum, facere quasi laboriosam dolore
+						deserunt, rerum consectetur est totam repudiandae hic quos fugiat harum fuga eius libero perspiciatis
+						unde qui voluptatum!</p>
 				</div>
 			</div>
 			<!-- Education -->
-			<div style="margin: 40px 0px">
+			<div class="content_conteiner">
 				<h3>Education</h3>
-				<div style="margin-bottom: 20px; padding-left: 30px">
-					<h4 style="margin-bottom: 15px;">Kyiv Academy of Media Arts</h4>
-					<p style="margin: 0px 0px 10px 0px; color: #FB6D3A; font-weight: bold;">Graphic Design Basic/Advanced</p>
-					<p style="margin: 0px 0px 10px 0px">January 2017 - September 2017 <span
-							class="vertical_separator">|</span>
+				<div>
+					<h4>Kyiv Academy of Media Arts</h4>
+					<p class="accent">Graphic Design Basic/Advanced</p>
+					<p>January 2017 - September 2017 <span class="vertical_separator">|</span>
 						Ukraine </p>
 				</div>
-				<div style="margin-bottom: 20px; padding-left: 30px">
-					<h4 style="margin: 15px 0px;">Cambrridge ESOL Level 1 Certificatr in ESOL International</h4>
-					<p style="margin: 0px 0px 10px 0px; color: #FB6D3A; font-weight: bold;">First Certificate in English
+				<div>
+					<h4>Cambrridge ESOL Level 1 Certificatr in ESOL International</h4>
+					<p class="accent">First Certificate in English
 						Level B2</p>
-					<p style="margin: 0px 0px 10px 0px"> February 2010 <span class="vertical_separator">|</span> Ukraine </p>
+					<p> February 2010 <span class="vertical_separator">|</span> Ukraine </p>
 				</div>
-				<div style="margin-bottom: 20px; padding-left: 30px">
-					<h4 style="margin: 15px 0px;">Kyiv Institute for the Humanities</h4>
-					<p style="margin: 0px 0px 10px 0px; color: #FB6D3A; font-weight: bold;">International Relationships</p>
-					<p style="margin: 0px 0px 10px 0px">September 2003 - February 2008 <span
-							class="vertical_separator">|</span>
+				<div>
+					<h4>Kyiv Institute for the Humanities</h4>
+					<p class="accent">International Relationships</p>
+					<p>September 2003 - February 2008 <span class="vertical_separator">|</span>
 						Ukraine </p>
 				</div>
 
 			</div>
+
 			<!-- Table  -->
-			<div style="text-align: center;">
-				<p style="font-weight: bold;">Table practice</p>
+			<div>
+				<h3 class="table_title">Table practice</h3>
 				<table>
 					<colgroup>
 						<col>
-						<col style="background: #eee7e7;">
+						<col class="col_background_color">
 						<col>
-						<col style="background: #eee7e7;">
+						<col class="col_background_color">
 						<col>
-						<col style="background: #eee7e7;">
+						<col class="col_background_color">
 					</colgroup>
 					<thead>
 						<tr>
-							<th colspan="6" style="background: rgb(202, 200, 200) ;">Автопарк</th>
+							<th colspan="6" class="tr_header">Автопарк</th>
 						</tr>
-						<tr style="background: rgb(202, 200, 200);">
-							<th style="width: 50px;">п/н</th>
-							<th style="width: 100px;">Марка</th>
+						<tr class="tr_header">
+							<th class="numbers">п/н</th>
+							<th>Марка</th>
 							<th>Обьем двигателя</th>
 							<th>Года выпуска</th>
-							<th style="width: 100px;">Пробег</th>
+							<th>Пробег</th>
 							<th>Регистрационный номер</th>
 						</tr>
 					</thead>
@@ -228,13 +171,14 @@
 					</tbody>
 				</table>
 				<div>
-					<p><span style="color: #FB6D3A; font-weight: bold;">Link to >>> </span><a href="pages/table.html"
-							target="_blank">Mondriaan Table</a></p>
+					<p class="table_link"><span class="accent">Link to >>> </span><a href="pages/table.html">Mondriaan
+							Table</a>
+					</p>
 				</div>
 			</div>
 
 		</div>
-	</div>
+	</section>
 
 </body>
 
