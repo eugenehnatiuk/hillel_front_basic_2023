@@ -3,6 +3,7 @@
   background: var(--backgroud_color);
   width: 1200px;
   margin: 0 auto;
+  padding-top: 80px;
 }
 
 a {
@@ -11,25 +12,23 @@ a {
   display: block;
   margin: 20px 0px;
 }
+caption {
+	margin: 30px;
+	font-weight: bold;
+	color: #fb6d3a;
+}
 
 table {
-  padding-top: 40px;
   margin: 0 auto;
+  border-collapse: separate;
   border: 2px solid black;
   width: 649px;
   height: 542px;
   box-sizing: border-box;
 }
 
-caption {
-	margin: 10px;
-	font-weight: bold;
-	color: #FB6D3A;
-}
-
 td,
 th {
-  border: 2px solid black;
   text-align: center;
   width: 50px;
   height: 50px;
@@ -37,25 +36,26 @@ th {
 }
 
 .color_1 {
-  background: rgb(128, 128, 128);
+  background: #808080;
 }
 .color_2 {
-  background: rgb(87, 98, 18);
+  background: #576212;
 }
 .color_3 {
-  background: rgb(35, 194, 52);
+  background: #23c234;
 }
 .color_4 {
-  background: rgb(250, 194, 52);
+  background: #fac234;
 }
 .color_5 {
-  background: rgb(0, 0, 255);
+  background: #0000ff;
 }
 .color_6 {
-  background: rgb(21, 67, 18);
+  background: #154312;
 }
 
-.table_link{
+.go_home_link{
+	margin: 30px auto;
 	text-transform: uppercase;
 	text-align: center
 }
