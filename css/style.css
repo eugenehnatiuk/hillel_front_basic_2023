@@ -89,8 +89,9 @@ div > p {
 
 /* Contacts */
 .contacts_icon {
-  width: 25px;
-  height: 25px;
+  width: 35px;
+  height: 35px;
+  vertical-align: middle
 }
 
 /* Table */
