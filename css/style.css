@@ -50,7 +50,7 @@ h4 {
 }
 .content_conteiner {
   margin: 40px 0px;
-  text-align: justify;
+  
 }
 
 /* Title */
@@ -78,8 +78,8 @@ h1 + div {
   margin: 30px auto 80px;
 }
 div > p {
-  margin: 15px 15px;
-  padding-left: 30px;
+  margin: 15px 0px 15px 0px;
+  padding-left: 45px;
 }
 
 /* About me */
@@ -88,10 +88,13 @@ div > p {
 }
 
 /* Contacts */
+.contacts{
+	padding-left: 45px;
+}
+
 .contacts_icon {
-  width: 35px;
-  height: 35px;
-  vertical-align: middle
+  vertical-align: middle;
+  padding-right: 10px; 
 }
 
 /* Table */
