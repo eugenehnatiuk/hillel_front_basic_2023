@@ -91,12 +91,21 @@ div > p {
 .contacts{
 	padding-left: 45px;
 }
-
+.contacts_box{
+	font-size: 0px;
+}
 .contacts_icon {
+	display: inline-block;
   vertical-align: middle;
   padding-right: 10px; 
 }
 
+.contacts_icon + a{
+	vertical-align: middle;
+	font-size: 18px;
+	display: inline-block;
+	/* padding-left: 10px; */
+}
 /* Table */
 table {
   margin: 0 auto;
